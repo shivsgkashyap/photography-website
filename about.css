@@ -1,0 +1,37 @@
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+}
+.flexpics {
+  width: 484px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: 30px;
+}
+
+.flexpics img {
+width: 232px;
+height: 232px;
+padding: 3px;
+display: inline-block;
+}
+
+.text h1 {
+margin-top: 0px;
+}
+
+.linkedsite {
+font-weight: bold;
+
+}
+
+.linkedsite a {
+text-decoration: none;
+color: black;
+}
+
