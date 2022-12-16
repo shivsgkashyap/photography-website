@@ -1,0 +1,141 @@
+@font-face {
+  font-family: raleway;
+  src: url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2);
+}
+
+body, input, textarea {
+  font-family: raleway, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 17px;
+  padding-left: 16px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo img {
+  width: 282px;
+  height: 60px;
+  background-color: white;
+
+
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.links {
+  margin-top: 5px;
+}
+
+.links a {
+  margin-left: 75px;
+  margin-right: 75px;
+  color: rgb(94, 93, 93);
+  text-decoration: none;
+
+}
+
+a.current-page {
+  color: rgb(69, 149, 247)
+
+}
+
+.social-media {
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 5px;
+
+}
+
+
+.instagram img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.facebook img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.twitter img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+.footer {
+  line-height: 1.45em;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: rgb(94, 93, 93);
+}
+
+.master-page {
+  background: url(nature-photography-at-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 94px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  resize: none;
+}
+
+input:focus-visible, textarea:focus-visible {
+  outline: none;
+  
+
+}
+
+button {
+  background-color: rgb(69, 149, 247);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 72px;
+  display: block;
+  margin-left: auto;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  width: 400px;
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
