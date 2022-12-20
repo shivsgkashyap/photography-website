@@ -3,11 +3,12 @@
   src: url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2);
 }
 
-body, input, textarea {
+body,
+input,
+textarea {
   font-family: raleway, sans-serif;
   font-size: 14px;
   margin: 0px;
-  
 }
 
 .navbar {
@@ -26,14 +27,10 @@ body, input, textarea {
   width: 282px;
   height: 60px;
   background-color: white;
-
-
 }
 .navigation {
   display: flex;
   justify-content: center;
-  
-
 }
 
 .links {
@@ -45,21 +42,17 @@ body, input, textarea {
   margin-right: 75px;
   color: rgb(94, 93, 93);
   text-decoration: none;
-
 }
 
 a.current-page {
-  color: rgb(69, 149, 247)
-
+  color: rgb(69, 149, 247);
 }
 
 .social-media {
   margin-left: auto;
   margin-right: 100px;
   margin-top: 5px;
-
 }
-
 
 .instagram img {
   width: 20px;
@@ -79,8 +72,7 @@ a.current-page {
   margin-right: 10px;
 }
 
-
-.footer {
+footer {
   line-height: 1.45em;
   text-align: center;
   font-size: 14px;
@@ -97,10 +89,10 @@ a.current-page {
   margin-top: 94px;
   padding-bottom: 100px;
   padding-top: 100px;
-
 }
 
-input[type=text], textarea {
+input[type="text"],
+textarea {
   width: 100%;
   padding: 5px;
   border: 1px solid #ccc;
@@ -109,10 +101,9 @@ input[type=text], textarea {
   resize: none;
 }
 
-input:focus-visible, textarea:focus-visible {
+input:focus-visible,
+textarea:focus-visible {
   outline: none;
-  
-
 }
 
 button {
@@ -132,10 +123,3 @@ button {
   width: 400px;
   margin-left: 200px;
 }
-
-
-
-
-
-
-
